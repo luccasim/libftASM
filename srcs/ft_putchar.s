@@ -1,5 +1,7 @@
 	global	_ft_putchar
 
+section .text
+
 _ft_putchar:
 	push	rbp
 	mov		rbp, rsp

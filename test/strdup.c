@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   strdup.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: luccasim <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/05/28 15:26:20 by luccasim          #+#    #+#             */
+/*   Updated: 2017/05/28 15:26:21 by luccasim         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "test.h"
 
 static int	result(char *s1, char *s2)
@@ -23,7 +35,7 @@ static int	basic_test(int n, char *s)
 	return (0);
 }
 
-int		test_strdup(void)
+int			test_strdup(void)
 {
 	TEST("FT_STRDUP");
 	basic_test(1, "Bonjour les gens!");

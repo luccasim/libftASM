@@ -1,6 +1,8 @@
     global _ft_strcat
     extern _ft_strlen
 
+section .text
+
 _ft_strcat:
     mov         rax, rdi
     mov         cl, [rax]
