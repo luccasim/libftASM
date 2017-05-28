@@ -7,9 +7,9 @@ static int	basic_test(int nb, int min, int max)
 	printf("TEST %d\n", nb);
 	ret = ft_max(min, max);
 	if (ret == max)
-		printf("%s\n", "SUCCESS");
+		SUCCESS;
 	else
-		printf("%s\n", "FAIL");
+		FAIL;
 	return (0);
 }
 

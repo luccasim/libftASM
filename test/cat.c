@@ -8,7 +8,7 @@ static int	basic_test(void)
 	if (fd)
 	{
 		ft_cat(fd);
-		printf("\nSUCCESS\n");
+		SUCCESS;
 	}
 	close(fd);
 	return (0);

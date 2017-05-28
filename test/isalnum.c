@@ -4,9 +4,9 @@ static int	test_char(int nb, int c)
 {
 	printf("TEST %d '%c'\n", nb, c);
 	if ((ft_isalnum(c)) == (isalnum(c)))
-		printf("SUCCESS\n");
+		SUCCESS;
 	else
-		printf("ERROR\n");
+		FAIL;
 	return (0);
 }
 

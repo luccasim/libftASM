@@ -12,6 +12,9 @@
 
 # define SIZE		32
 # define TEST(a)	printf("----------# %s #----------\n", a);
+# define RESULT(a)	(a) ? SUCCESS : FAIL
+# define SUCCESS	printf("\033[32;1m%s\n\033[0m", "SUCCESS")
+# define FAIL		printf("\033[31;1m%s\n\033[0m", "FAIL")
 
 /*
 ** PART 1

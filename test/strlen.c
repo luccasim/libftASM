@@ -4,9 +4,9 @@ static int	basic_test(int n, char *s)
 {
 	printf("TEST %d, de '%s'\n", n, s);
 	if (ft_strlen(s) == strlen(s))
-		printf("SUCCESS\n");
+		SUCCESS;
 	else
-		printf("FAIL\n");
+		FAIL;
 	return (0);
 }
 

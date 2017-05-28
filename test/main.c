@@ -11,6 +11,7 @@ int			main(void)
 	test_isprint();
 	test_tolower();
 	test_toupper();
+	test_puts();
 	test_strlen();
 	test_strdup();
 	test_memcpy();

@@ -4,9 +4,9 @@ static int	basic_test(int nb, int n)
 {
 	printf("TEST %d, of '%d'\n", nb, n);
 	if (ft_abs(n) == abs(n))
-		printf("SUCCESS\n");
+		SUCCESS;
 	else
-		printf("FAIL\n");
+		FAIL;
 	return (0);
 }
 

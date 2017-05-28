@@ -16,7 +16,7 @@ int			ft_isascii(int a);
 int			ft_isprint(int a);
 int			ft_tolower(int a);
 int			ft_toupper(int a);
-void		ft_puts(char const *str);
+int			ft_puts(char const *str);
 
 /*
 ** PART 2
@@ -42,5 +42,7 @@ int			ft_isupper(int a);
 int			ft_min(int a, int b);
 int			ft_max(int a, int b);
 int			ft_abs(int a);
+int			ft_putchar(int a);
+int			ft_putstr(char const *s);
 
 #endif
