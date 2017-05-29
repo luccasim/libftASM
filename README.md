@@ -14,10 +14,10 @@ Ce projet a pour but de nous familiariser avec le langage ASM
 
 so %rdi, %rsi, %rdx, %rcx, %r8 and %r9 are the registers in order 
 
-# Contribuor
+# Contributor
 
-Illan 		Gomez
-Sebastien	Goret
+Illan 		Gomez  
+Sebastien	Goret  
 
 # Sources
 
